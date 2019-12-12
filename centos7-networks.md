@@ -109,7 +109,8 @@ BOOTPROTO=static	# У этого интерфейса статический а�
 IPADDR=172.25.244.3
 NETMASK=255.255.255.128
 GATEWAY=172.25.244.1
-DNS=172.25.244.10
+DNS1=172.25.244.10
+DNS1=172.25.244.42
 DEFROUTE=no
 IPV4_FAILURE_FATAL=no
 IPV6INIT=yes
@@ -130,6 +131,7 @@ TYPE=Ethernet
 PROXY_METHOD=none
 BROWSER_ONLY=no
 BOOTPROTO=dhcp		# Этот интерфейс получает адрес по DHCP
+PEERDNS=no        # Так можно отключить получение DNS на интерфейсе
 DEFROUTE=yes
 IPV4_FAILURE_FATAL=no
 IPV6INIT=yes
@@ -143,6 +145,8 @@ DEVICE=ens19
 ONBOOT=yes
 NM_CONTROLLED=no - отключить NetworkManager
 ```
+
+
 ###  При необходимости узнаем UUID сетевой карты
 ```bash
 uuidgen ens160 
