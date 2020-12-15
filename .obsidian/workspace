@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "16fda84c9fb2907c",
+    "type": "split",
+    "children": [
+      {
+        "id": "54dba5513b363b46",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "linux/linux.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a2b2d49282b8d57b",
+    "type": "split",
+    "children": [
+      {
+        "id": "40516faee950442d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2389dbaa606ed1f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ab3b3359c7642658",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "66408df95ccc42ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c761084d908e3e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "167bb82168cd9707",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "linux/linux.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "lastOpenFiles": [
+    "linux/linux.md",
+    "TW/notes.md",
+    "TW/docker_build.md",
+    "Untitled.md",
+    "DevOps/docker.md",
+    "README.md",
+    "DevOps/git.md",
+    "linux/centos7-networks.md",
+    "Linux/Linux.md",
+    "Linux/centos7-networks.md"
+  ]
+}
